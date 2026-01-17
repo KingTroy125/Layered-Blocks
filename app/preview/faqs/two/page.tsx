@@ -33,7 +33,7 @@ const faqs = [
   },
 ]
 
-export function FaqSection2() {
+export default function FaqSection2() {
   const [openItems, setOpenItems] = useState<number[]>([])
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: '-100px' })
@@ -222,5 +222,3 @@ export function FaqSection2() {
     </section>
   )
 }
-
-export default FaqSection2
