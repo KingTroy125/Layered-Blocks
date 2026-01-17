@@ -1,11 +1,6 @@
 'use client'
 
-import { useState } from 'react'
-
 export default function LoginPage() {
-    const [email, setEmail] = useState('')
-    const [password, setPassword] = useState('')
-
     return (
         <section className="flex min-h-screen bg-white dark:bg-black px-4 py-16 md:py-32">
             <div className="relative flex flex-col rounded-3xl border border-gray-200 dark:border-gray-800 bg-white dark:bg-black overflow-hidden transition-all duration-300 group hover:border-gray-400 dark:hover:border-gray-600 hover:shadow-lg m-auto h-fit w-full max-w-sm p-0.5">
@@ -63,8 +58,6 @@ export default function LoginPage() {
                                 required
                                 name="email"
                                 id="email"
-                                value={email}
-                                onChange={(e) => setEmail(e.target.value)}
                                 className="w-full px-4 py-2.5 rounded-lg border border-border bg-background hover:border-blue-500/30 focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500/30 transition-all text-sm"
                             />
                         </div>

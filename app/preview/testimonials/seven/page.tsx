@@ -4,7 +4,6 @@ import { useState } from "react"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { ChevronLeft, ChevronRight, Quote } from "lucide-react"
-import Image from "next/image"
 import { motion, AnimatePresence } from "framer-motion"
 
 const testimonials = [
@@ -191,19 +190,7 @@ const TestimonialsSection2 = () => {
       },
     },
   }
-
-  const dotVariants = {
-    hidden: { opacity: 0, scale: 0.8 },
-    visible: {
-      opacity: 1,
-      scale: 1,
-      transition: {
-        duration: 0.6,
-        delay: 0.6,
-        ease: "easeOut",
-      },
-    },
-  }
+  
 
   const activeDotVariants = {
     inactive: {

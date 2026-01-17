@@ -81,12 +81,10 @@ interface TestimonialCardProps {
   quote: string;
   author: string;
   role: string;
-  avatar: string;
-  hasIcon?: boolean;
-  isLong?: boolean;
+  avatar: string
 }
 
-const TestimonialCard = ({ quote, author, role, avatar, hasIcon, isLong }: TestimonialCardProps) => {
+const TestimonialCard = ({ quote, author, role, avatar }: TestimonialCardProps) => {
   return (
     <div className="relative bg-card rounded-2xl sm:rounded-3xl p-5 sm:p-6 border border-border transition-all duration-300 hover:shadow-[var(--shadow-card)] hover:border-primary/20 min-h-[280px] sm:min-h-[320px] flex flex-col">
       <div className="w-14 h-14 sm:w-16 sm:h-16 mb-4 sm:mb-6 rounded-full flex items-center justify-center bg-gradient-to-b from-primary to-primary/20 border border-border shadow-[inset_0px_4px_8px_1px_rgba(244,244,254,0.25)]">

@@ -60,15 +60,6 @@ const testimonials = [
   },
 ]
 
-const QuoteIcon = ({ className }: { className?: string }) => (
-  <svg width="32" height="24" viewBox="0 0 32 24" fill="none" className={className} style={{ opacity: 0.1 }}>
-    <path
-      d="M0 24V11.2C0 4 3.2 0 10.4 0V4.8C7.2 4.8 5.6 6.4 5.6 9.6H10.4V24H0ZM18.4 24V11.2C18.4 4 21.6 0 28.8 0V4.8C25.6 4.8 24 6.4 24 9.6H28.8V24H18.4Z"
-      fill="currentColor"
-    />
-  </svg>
-)
-
 const TestimonialCard = ({ testimonial }: { testimonial: (typeof testimonials)[0] }) => {
   const isDark = testimonial.type === "dark"
   const isBrand = testimonial.type === "brand"

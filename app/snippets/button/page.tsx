@@ -1,5 +1,4 @@
 import SnippetPreview from '@/components/SnippetPreview'
-import { Button } from '@/components/snippets/buttons/button'
 import { Badge } from '@/components/ui/badge'
 import { Metadata } from 'next'
 
