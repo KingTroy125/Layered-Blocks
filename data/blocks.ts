@@ -45,48 +45,7 @@ export const blocks: Block[] = [
         preview: '/preview/features/two',
         code: loadCode('app/preview/features/two/page.tsx'),
     },
-    {
-        slug: 'content',
-        title: 'one',
-        category: 'content',
-        preview: '/preview/content/one',
-        code: loadCode('app/preview/content/one/page.tsx'),
-    },
-    {
-        slug: 'content',
-        title: 'seven',
-        category: 'content',
-        preview: '/preview/content/seven',
-        code: loadCode('app/preview/content/seven/page.tsx'),
-    },
-    {
-        slug: 'content',
-        title: 'two',
-        category: 'content',
-        preview: '/preview/content/two',
-        code: loadCode('app/preview/content/two/page.tsx'),
-    },
-    {
-        slug: 'content',
-        title: 'three',
-        category: 'content',
-        preview: '/preview/content/three',
-        code: loadCode('app/preview/content/three/page.tsx'),
-    },
-    {
-        slug: 'content',
-        title: 'four',
-        category: 'content',
-        preview: '/preview/content/four',
-        code: loadCode('app/preview/content/four/page.tsx'),
-    },
-    {
-        slug: 'content',
-        title: 'five',
-        category: 'content',
-        preview: '/preview/content/five',
-        code: loadCode('app/preview/content/five/page.tsx'),
-    },
+
     {
         slug: 'content',
         title: 'six',
@@ -94,6 +53,7 @@ export const blocks: Block[] = [
         preview: '/preview/content/six',
         code: loadCode('app/preview/content/six/page.tsx'),
     },
+
     {
         slug: 'stats',
         title: 'one',
@@ -101,34 +61,7 @@ export const blocks: Block[] = [
         preview: '/preview/stats/one',
         code: loadCode('app/preview/stats/one/page.tsx'),
     },
-    {
-        slug: 'stats',
-        title: 'two',
-        category: 'stats',
-        preview: '/preview/stats/two',
-        code: loadCode('app/preview/stats/two/page.tsx'),
-    },
-    {
-        slug: 'stats',
-        title: 'three',
-        category: 'stats',
-        preview: '/preview/stats/three',
-        code: loadCode('app/preview/stats/three/page.tsx'),
-    },
-    {
-        slug: 'stats',
-        title: 'four',
-        category: 'stats',
-        preview: '/preview/stats/four',
-        code: loadCode('app/preview/stats/four/page.tsx'),
-    },
-    {
-        slug: 'team',
-        title: 'one',
-        category: 'team',
-        preview: '/preview/team/one',
-        code: loadCode('app/preview/team/one/page.tsx'),
-    },
+   
     {
         slug: 'team',
         title: 'two',
@@ -179,27 +112,7 @@ export const blocks: Block[] = [
         preview: '/preview/testimonials/nine',
         code: loadCode('app/preview/testimonials/nine/page.tsx'),
     },
-    {
-        slug: 'call-to-action',
-        title: 'one',
-        category: 'call-to-action',
-        preview: '/preview/call-to-action/one',
-        code: loadCode('app/preview/call-to-action/one/page.tsx'),
-    },
-    {
-        slug: 'call-to-action',
-        title: 'two',
-        category: 'call-to-action',
-        preview: '/preview/call-to-action/two',
-        code: loadCode('app/preview/call-to-action/two/page.tsx'),
-    },
-    {
-        slug: 'call-to-action',
-        title: 'three',
-        category: 'call-to-action',
-        preview: '/preview/call-to-action/three',
-        code: loadCode('app/preview/call-to-action/three/page.tsx'),
-    },
+
     {
         slug: 'footer',
         title: 'two',
