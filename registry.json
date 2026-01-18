@@ -1,7 +1,7 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "",
-  "homepage": "",
+  "name": "Layered Blocks",
+  "homepage": "https://layered-blocks.vercel.app",
   "items": [
     {
       "name": "call-to-action-1",
