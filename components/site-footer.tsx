@@ -31,7 +31,7 @@ export const SiteFooter = () => (
             </div>
             <div className="flex">
                 <Button asChild variant="link" className="text-foreground decoration-primary -ml-4 gap-1">
-                    <Link href="https://github.com/KingTroy125" target="_blank" className="text-sm">
+                    <Link href="https://github.com/KingTroy125/layered-blocks" target="_blank" className="text-sm">
                         GitHub
                         <ArrowUpRight className="!size-3.5 opacity-50" />
                     </Link>
