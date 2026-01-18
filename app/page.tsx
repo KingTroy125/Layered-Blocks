@@ -34,29 +34,20 @@ export default function Hero() {
               {
                 title: "Vaulto",
                 imageUrl: "./Templates/Vaulto.png",
-                views: 80,
-                stars: 21,
-                forks: 8,
                 livePreviewUrl: "https://vaulto-nextjs-template.vercel.app/",
                 githubUrl: "https://github.com/KingTroy125/Vaulto-nextjs-template",
               },
               {
-                title: "Minimalist Landing Page",
-                imageUrl: "./Templates/Vaulto.png",
-                views: 266,
-                stars: 221,
-                forks: 70,
-                livePreviewUrl: "https://shadcn-ui-landing-page.vercel.app/",
-                githubUrl: "https://github.com/akash3444/shadcn-ui-landing-page",
+                title: "Modula Landing Page",
+                imageUrl: "./Templates/Modula.png",
+                livePreviewUrl: "https://modula-nj.vercel.app/",
+                githubUrl: "",
               },
               {
-                title: "PureLanding",
-                imageUrl: "./Templates/Vaulto.png",
-                views: 130,
-                stars: 72,
-                forks: 44,
-                livePreviewUrl: "https://pure-landing-shadcnui-template.vercel.app/",
-                githubUrl: "https://github.com/akash3444/pure-landing-shadcnui-template",
+                title: "Opencal PureLanding",
+                imageUrl: "./Templates/Opencal.png",
+                livePreviewUrl: "https://opencal-nextjs.vercel.app/",
+                githubUrl: "",
               },
             ].map((template, index) => (
               <div key={index} className="group relative overflow-hidden rounded-lg aspect-video">
@@ -73,7 +64,7 @@ export default function Hero() {
                     <h3 className="text-center text-lg font-semibold">{template.title}</h3>
                     
                     {/* Stats */}
-                    <div className="flex justify-center gap-6 text-sm">
+                    {/*<div className="flex justify-center gap-6 text-sm">
                       <div className="flex items-center gap-1">
                         <Eye className="w-4 h-4" />
                         <span>{template.views}</span>
@@ -86,7 +77,7 @@ export default function Hero() {
                         <GitFork className="w-4 h-4" />
                         <span>{template.forks}</span>
                       </div>
-                    </div>
+                    </div>*/}
 
                     {/* Buttons */}
                     <div className="flex items-center justify-center gap-3">
