@@ -147,7 +147,7 @@ export default function ContributorsSection() {
                 target="_blank"
                 rel="noopener noreferrer"
                 title={contributor.name}
-                className="size-16 rounded-full border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg group overflow-hidden"
+                className="size-16 rounded-full border border-border hover:border-primary/50 transition-all duration-300 hover:shadow-lg group overflow-hidden flex items-center justify-center bg-muted"
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{
@@ -162,9 +162,9 @@ export default function ContributorsSection() {
                   alt={contributor.name}
                   src={contributor.avatar}
                   loading="lazy"
-                  width={120}
-                  height={120}
-                  className="size-full rounded-full object-cover"
+                  width={64}
+                  height={64}
+                  className="w-full h-full rounded-full object-cover"
                 />
               </motion.a>
             ))}
