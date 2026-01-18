@@ -5,18 +5,18 @@
   "title": "Hero Section 1",
   "description": "Modern hero section for Layered Blocks with animated badge and header",
   "registryDependencies": [
-    "button"
+    "button",
+    "badge"
+  ],
+  "dependencies": [
+    "lucide-react",
+    "framer-motion"
   ],
   "files": [
     {
       "path": "app/preview/hero-section/one/page.tsx",
       "type": "registry:component",
       "target": "components/hero-section.tsx"
-    },
-    {
-      "path": "components/ui/badge.tsx",
-      "type": "registry:component",
-      "target": "components/ui/badge.tsx"
     }
   ]
 }
