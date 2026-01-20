@@ -3,8 +3,21 @@
 
 set -euo pipefail
 
-read -p "Enter commit message: " commitMsg
-[ -z "$commitMsg" ] && { echo "Error: Empty commit message. Aborting."; exit 1; }
+# Commit message with intelligent defaults
+read -p "Enter commit message (or press Enter for defaults): " commitMsg
+
+# Suggest sensible defaults based on changes
+if [ -z "$commitMsg" ]; then
+  if [ -f package.json ]; then
+    commitMsg="chore: update dependencies"
+  elif git diff --cached --quiet && [ -z "$(git status -s)" ]; then
+    echo "Error: No changes detected."
+    exit 1
+  else
+    commitMsg="Update: minor changes"
+  fi
+  echo "Using default message: '$commitMsg'"
+fi
 
 # Ensure we're in a git repo
 if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
@@ -30,4 +43,4 @@ if git diff --cached --quiet; then
 fi
 
 git commit -m "$commitMsg" && git push
-echo "Successfully committed and pushed."
+echo "Successfully committed and pushed with message: '$commitMsg'"
