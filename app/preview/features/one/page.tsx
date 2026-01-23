@@ -134,41 +134,41 @@ export default function FeatureDetail() {
     <section className="relative py-16 sm:py-20 md:py-28 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <motion.div
-          className="text-center mb-16 sm:mb-20"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{
-            once: true,
-            amount: 0.3,
-          }}
-          variants={containerVariants}
-        >
-          {/* Badge */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16 sm:mb-20">
           <motion.div
-            className="flex items-center justify-center gap-2 sm:gap-3"
+            className="flex flex-col items-center text-center gap-6 sm:gap-8"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{
+              once: true,
+              amount: 0.3,
+            }}
             variants={containerVariants}
           >
-            <motion.div className="flex items-center" variants={lineVariants}>
-              <div className="w-12 sm:w-20 h-px bg-gradient-to-l from-primary/30 to-transparent"></div>
-            </motion.div>
-            <motion.div variants={badgeVariants}>
+            {/* Badge */}
+            <div className="flex items-center justify-center gap-2 sm:gap-3">
+              <div className="flex items-center">
+                <div className="w-12 sm:w-20 h-px bg-gradient-to-l from-primary/30 to-transparent"></div>
+              </div>
+              
               <Badge variant="hero" className="group">
                 <span className="text-sm font-normal">key features</span>
               </Badge>
-            </motion.div>
-            <motion.div className="flex items-center" variants={lineVariants}>
-              <div className="w-12 sm:w-20 h-px bg-gradient-to-r from-primary/30 to-transparent"></div>
-            </motion.div>
-          </motion.div>
+              
+              <div className="flex items-center">
+                <div className="w-12 sm:w-20 h-px bg-gradient-to-r from-primary/30 to-transparent"></div>
+              </div>
+            </div>
 
-          <motion.h2
-            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal leading-tight text-foreground"
-            variants={headingVariants}
-          >
-            Features that make the difference
-          </motion.h2>
-        </motion.div>
+            {/* Heading */}
+            <motion.h2
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-normal leading-tight text-foreground px-4 max-w-4xl"
+              variants={headingVariants}
+            >
+              Features that make the difference
+            </motion.h2>
+          </motion.div>
+        </div>
 
         {/* Feature Sections */}
         <div className="space-y-20 sm:space-y-28">
