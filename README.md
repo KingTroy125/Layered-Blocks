@@ -23,7 +23,7 @@
 
 ---
 
-## ✨ About
+## About
 
 **Layered UI** is a modern collection of beautifully crafted, responsive UI blocks built with **shadcn/ui**, **Tailwind CSS**, and **Next.js**.
 
@@ -36,24 +36,24 @@ All components are easy to customize, accessible, and production-ready.
 
 ---
 
-## 🚀 Features
+## Features
 
-- ⚡ Built with **shadcn/ui**
-- 🎨 Tailwind CSS customization
-- 📱 Fully responsive
-- ♿ Accessibility-first
-- 🧩 Copy & paste blocks
-- 🛠️ Easy to extend
+- Built with **shadcn/ui**
+- Tailwind CSS customization
+- Fully responsive
+- Accessibility-first
+- Copy & paste blocks
+- Easy to extend
 
 ---
 
-## 🖼️ Preview
+## Preview
 
 ![Layered UI Preview](https://github.com/user-attachments/assets/REPLACE_WITH_YOUR_IMAGE_ID)
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - Next.js
 - React
@@ -63,7 +63,7 @@ All components are easy to customize, accessible, and production-ready.
 
 ---
 
-## 📦 Getting Started
+## Getting Started
 
 Clone the repository:
 
