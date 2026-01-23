@@ -3,6 +3,7 @@
 import { Eye, Star, GitFork } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Hero2 } from '@/components/hero2-header';
+import { SiteBanner } from '@/components/site-banner';
 import { SiteFooter } from '@/components/site-footer';
 import { SiteHeader } from '@/components/site-header';
 import { Button } from '@/components/ui/button';
@@ -10,6 +11,7 @@ import { Button } from '@/components/ui/button';
 export default function Hero() {
   return (
     <>
+      <SiteBanner />
       <SiteHeader />
       <section>
         <Hero2 />
