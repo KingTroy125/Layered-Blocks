@@ -11,10 +11,10 @@
 </p>
 
 <div align="center">
-  <a href="https://github.com/KingTroy125/">
+  <a href="https://github.com/KingTroy125/Layered-Blocks">
     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/KingTroy125/Layered-UI">
   </a>
-  <a href="https://github.com/KingTroy125/Layered-UI/blob/main/LICENSE">
+  <a href="https://github.com/KingTroy125/Layered-Blocks/blob/main/LICENSE">
     <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg">
   </a>
 </div>
