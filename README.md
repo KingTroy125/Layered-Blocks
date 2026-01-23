@@ -11,8 +11,8 @@
 </p>
 
 <div align="center">
-  <a href="https://github.com/KingTroy125/Layered-Blocks">
-    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/KingTroy125/Layered-UI">
+  <a href="https://github.com/KingTroy125/Layered-Blocks/stargazers">
+    <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/KingTroy125/Layered-Blocks">
   </a>
   <a href="https://github.com/KingTroy125/Layered-Blocks/blob/main/LICENSE">
     <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg">
