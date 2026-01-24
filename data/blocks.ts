@@ -24,6 +24,14 @@ export const blocks: Block[] = [
     },
 
     {
+        slug: 'hero-section',
+        title: 'two',
+        category: 'hero-section',
+        preview: '/preview/hero-section/two',
+        code: loadCode('app/preview/hero-section/two/page.tsx'),
+    },
+
+    {
         slug: 'logo-cloud',
         title: 'one',
         category: 'logo-cloud',
@@ -176,6 +184,14 @@ export const blocks: Block[] = [
         category: 'faqs',
         preview: '/preview/faqs/two',
         code: loadCode('app/preview/faqs/two/page.tsx'),
+    },
+
+    {
+        slug: 'faqs',
+        title: 'three',
+        category: 'faqs',
+        preview: '/preview/faqs/three',
+        code: loadCode('app/preview/faqs/three/page.tsx'),
     },
 
     {

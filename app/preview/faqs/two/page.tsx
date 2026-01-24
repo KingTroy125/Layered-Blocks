@@ -7,22 +7,22 @@ import { Badge } from '@/components/ui/badge'
 
 const faqs = [
   {
-    question: 'What is Aurion?',
+    question: 'What is Layered UI?',
     answer:
-      'Aurion is an intelligent financial management platform that helps businesses and individuals organize, track, and optimize their finances. Our AI-powered features automatically categorize transactions, suggest optimal budgeting, and provide insights to boost your financial health.',
+      'Layered UI is a collection of beautifully crafted Shadcn UI blocks and components, designed to help developers build modern websites with ease.',
   },
   {
-    question: 'Can I integrate Aurion with my existing tools?',
+    question: 'Can I integrate Layered UI with my existing tools?',
     answer:
-      'Yes! Aurion seamlessly integrates with popular tools like QuickBooks, Xero, Stripe, and many more. Our robust API allows you to connect with virtually any financial tool in your workflow, ensuring all your data stays synchronized across platforms.',
+      'Yes! Layered UI seamlessly integrates with popular tools like QuickBooks, Xero, Stripe, and many more. Our robust API allows you to connect with virtually any financial tool in your workflow, ensuring all your data stays synchronized across platforms.',
   },
   {
-    question: 'How does Aurion automate finances?',
+    question: 'How does Layered UI automate finances?',
     answer:
-      'Aurion uses advanced AI algorithms to analyze your financial patterns and automatically categorize transactions, set budgets, and suggest optimal saving strategies. It can also generate recurring reports, send smart alerts, and even recommend tax-saving opportunities.',
+      'Layered UI uses advanced AI algorithms to analyze your financial patterns and automatically categorize transactions, set budgets, and suggest optimal saving strategies. It can also generate recurring reports, send smart alerts, and even recommend tax-saving opportunities.',
   },
   {
-    question: 'Is my data secure with Aurion?',
+    question: 'Is my data secure with Layered UI?',
     answer:
       'Absolutely. We use enterprise-grade encryption, secure cloud infrastructure, and comply with GDPR and SOC 2 standards. Your data is encrypted both in transit and at rest, and we never share your information with third parties. You maintain full control over your data at all times.',
   },

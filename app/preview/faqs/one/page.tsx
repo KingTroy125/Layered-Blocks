@@ -7,24 +7,24 @@ import { useInView } from "react-intersection-observer"
 
 const faqs = [
   {
-    question: "What is Finova?",
+    question: "What is Layered UI?",
     answer:
-      "Finova is an intelligent automation platform that helps teams streamline their workflows and eliminate repetitive tasks. It uses AI to connect your tools and automate processes from start to finish.",
+      "Layered UI is a collection of beautifully crafted Shadcn UI blocks and components, designed to help developers build modern websites with ease.",
   },
   {
-    question: "How does Finova work?",
+    question: "How does Layered UI work?",
     answer:
-      "Finova works by creating automated workflows that connect your favorite apps and services. You set up triggers and actions, and our AI handles the rest, learning from your patterns to optimize processes over time.",
+      "Layered UI works by providing developers with a set of pre-built, customizable UI components that can be easily integrated into any project. These components are designed to work together seamlessly, allowing for rapid development and consistent design.",
   },
   {
-    question: "Is Finova secure?",
+    question: "Is Layered UI secure?",
     answer:
-      "Yes, Finova is built with enterprise-grade security. We use encryption for data in transit and at rest, comply with industry standards, and regularly undergo security audits to protect your information.",
+      "Yes, Layered UI is built with enterprise-grade security. We use encryption for data in transit and at rest, comply with industry standards, and regularly undergo security audits to protect your information.",
   },
   {
-    question: "Can Finova integrate with other software?",
+    question: "Can Layered UI integrate with other software?",
     answer:
-      "Finova integrates with hundreds of popular tools and platforms. From CRMs to project management tools, we support a wide range of integrations to fit seamlessly into your existing workflow.",
+      "Layered UI integrates with hundreds of popular tools and platforms. From CRMs to project management tools, we support a wide range of integrations to fit seamlessly into your existing workflow.",
   },
   {
     question: "What support options are available?",
