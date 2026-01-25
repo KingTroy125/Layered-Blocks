@@ -189,6 +189,14 @@ export const blocks: Block[] = [
     },
 
     {
+        slug: 'cta',
+        title: 'one',
+        category: 'cta',
+        preview: '/preview/cta/one',
+        code: loadCode('app/preview/cta/one/page.tsx'),
+    },
+
+    {
         slug: 'login',
         title: 'one',
         category: 'login',
