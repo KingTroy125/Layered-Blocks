@@ -64,10 +64,10 @@ export const blocks: Block[] = [
    
     {
         slug: 'team',
-        title: 'two',
+        title: 'four',
         category: 'team',
-        preview: '/preview/team/two',
-        code: loadCode('app/preview/team/two/page.tsx'),
+        preview: '/preview/team/four',
+        code: loadCode('app/preview/team/four/page.tsx'),
     },
 
     {
