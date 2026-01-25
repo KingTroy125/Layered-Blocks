@@ -64,7 +64,7 @@ export const blocks: Block[] = [
 
     {
         slug: 'stats',
-        title: 'fiv',
+        title: 'five',
         category: 'stats',
         preview: '/preview/stats/five',
         code: loadCode('app/preview/stats/five/page.tsx'),
