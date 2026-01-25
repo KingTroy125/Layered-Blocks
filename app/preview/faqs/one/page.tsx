@@ -86,7 +86,7 @@ const FAQSection = () => {
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.8, delay: 0.5 }}
             >
-              Find answers to common questions about Finova. Can't find what you're looking for? Reach out to our
+              Find answers to common questions about Layered UI. Can't find what you're looking for? Reach out to our
               support team for personalized assistance.
             </motion.p>
           </div>
