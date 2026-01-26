@@ -134,7 +134,7 @@ export default function FooterSection() {
           </div>
           <div className="relative flex justify-center">
             <span className="px-4 text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Modula, All rights reserved
+              © {new Date().getFullYear()} Layered UI, All rights reserved
             </span>
           </div>
         </motion.div>
