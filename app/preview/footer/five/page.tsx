@@ -27,7 +27,7 @@ const Footer = () => {
           {/* Left Column - Brand Name */}
           <div className="w-full">
             <BlurIn as="h2" className="text-4xl md:text-5xl lg:text-6xl font-semibold text-foreground">
-              Run
+              Layered UI
             </BlurIn>
           </div>
 
