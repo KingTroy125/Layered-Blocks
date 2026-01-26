@@ -1,92 +1,102 @@
-"use client"
+'use client';
 
-import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Menu, X, ChevronDown } from "lucide-react"
+import { useState } from 'react';
+import { Button } from '@/components/ui/button';
+import { Logo } from '@/components/logo';
+import { motion } from 'framer-motion';
+import { Menu, X } from 'lucide-react';
 
-const Navbar2 = () => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null)
+const menuItems = [
+  { name: 'Features', href: '#features' },
+  { name: 'Solution', href: '#solution' },
+  { name: 'Pricing', href: '#pricing' },
+  { name: 'About', href: '#about' },
+];
 
-  const navItems = [
-    { label: "Home", href: "#" },
-    { label: "Pricing", href: "#" },
-    { label: "Blog", href: "#" },
-    { label: "Pages", href: "#", hasDropdown: true },
-  ]
+function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="relative bg-white">
-      <div className="mx-auto max-w-7xl px-4 lg:px-8">
-        <div className="flex h-24 items-center justify-between">
+    <motion.header
+      className="fixed top-0 left-0 right-0 z-40 pt-4 px-4 sm:px-6"
+      initial={{ opacity: 0, y: -20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6 }}
+    >
+      <nav className="max-w-6xl mx-auto px-6 py-3 lg:py-4 rounded-2xl bg-background/50 border border-border/50 backdrop-blur-md transition-all duration-300">
+        <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="logo-container group">
-            <span className="logo-text">Finova</span>
+            <Logo />
+
+          {/* Desktop Menu */}
+          <div className="hidden lg:block">
+            <ul className="flex gap-8 text-sm">
+              {menuItems.map((item) => (
+                <li key={item.name}>
+                  <a
+                    href={item.href}
+                    className="text-muted-foreground hover:text-foreground transition-colors duration-150"
+                  >
+                    {item.name}
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-1">
-            {navItems.map((item, index) => (
-              <div
-                key={item.label}
-                className="nav-item-wrapper"
-                onMouseEnter={() => setHoveredIndex(index)}
-                onMouseLeave={() => setHoveredIndex(null)}
-              >
-                <a href={item.href} className="nav-item flex items-center gap-1">
-                  {item.label}
-                  {item.hasDropdown && <ChevronDown className="w-4 h-4" />}
-                </a>
-                {hoveredIndex === index && (
-                  <>
-                    <div className="nav-item-underline" />
-                    <div className="nav-item-bg" />
-                  </>
-                )}
-              </div>
-            ))}
-          </div>
-
-          <div className="hidden md:block">
-            <div className="cta-wrapper">
-              <Button variant="hero" size="default" className="cta-button rounded-full">
-                Get Started
+          {/* Right Section */}
+          <div className="flex items-center gap-4">
+            {/* Desktop Buttons */}
+            <div className="hidden lg:flex gap-3">
+              <Button variant="outline" size="sm" className="rounded-lg">
+                Login
               </Button>
-              <div className="cta-pulse rounded-full" />
+              <Button size="sm" className="rounded-lg">
+                Sign Up
+              </Button>
             </div>
-          </div>
 
-          {/* Mobile menu button */}
-          <button
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden text-muted-foreground hover:text-foreground transition-colors"
-            aria-label="Toggle menu"
-          >
-            {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+            {/* Mobile Menu Button */}
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              className="relative z-20 -m-2.5 block cursor-pointer p-2.5 lg:hidden"
+            >
+              <Menu className={`h-6 w-6 transition-all duration-200 ${menuOpen ? 'hidden' : 'block'}`} />
+              <X className={`h-6 w-6 transition-all duration-200 ${menuOpen ? 'block' : 'hidden'}`} />
+            </button>
+          </div>
         </div>
 
-        {/* Mobile Navigation */}
-        {mobileMenuOpen && (
-          <div className="mobile-menu">
-            <div className="space-y-2 py-4">
-              {navItems.map((item) => (
-                <a key={item.label} href={item.href} className="mobile-nav-link flex items-center justify-between">
-                  {item.label}
-                  {item.hasDropdown && <ChevronDown className="w-4 h-4" />}
+        {/* Mobile Menu */}
+        <div
+          className={`${
+            menuOpen ? 'flex' : 'hidden'
+          } lg:hidden flex-col gap-4 pt-4 mt-4 border-t border-border/50`}
+        >
+          <ul className="space-y-4">
+            {menuItems.map((item) => (
+              <li key={item.name}>
+                <a
+                  href={item.href}
+                  className="text-muted-foreground hover:text-foreground transition-colors duration-150"
+                >
+                  {item.name}
                 </a>
-              ))}
-            </div>
-            <div className="border-t border-border pt-4 pb-4">
-              <Button variant="hero" size="default" className="w-full rounded-full">
-                Get Started
-              </Button>
-            </div>
+              </li>
+            ))}
+          </ul>
+          <div className="flex flex-col gap-3 pt-4">
+            <Button variant="outline" size="sm" className="rounded-lg w-full">
+              Login
+            </Button>
+            <Button size="sm" className="rounded-lg w-full">
+              Sign Up
+            </Button>
           </div>
-        )}
-      </div>
-    </nav>
-  )
+        </div>
+      </nav>
+    </motion.header>
+  );
 }
 
-export default Navbar2
+export default Navbar;
