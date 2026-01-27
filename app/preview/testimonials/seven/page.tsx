@@ -23,7 +23,7 @@ const testimonials = [
   },
   {
     quote:
-      "Implementation was seamless and the support team was incredible. We've seen a 40% reduction in time spent on financial reporting. Aurion has become an essential tool for our business operations.",
+      "Implementation was seamless and the support team was incredible. We've seen a 40% reduction in time spent on financial reporting. Layered UI has become an essential tool for our business operations.",
     author: "Michael Rodriguez",
     role: "CFO at TechScale Inc",
     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=MichaelRodriguez",
