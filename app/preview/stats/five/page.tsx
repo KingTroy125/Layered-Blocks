@@ -90,7 +90,7 @@ const StatsSection = () => {
             </h2>
 
             <p className="text-muted-foreground text-sm sm:text-base font-normal leading-relaxed max-w-xl">
-              Our track record speaks for itself. See how we've helped businesses achieve remarkable growth and transformation with Finova's solutions.
+              Our track record speaks for itself. See how we've helped businesses achieve remarkable growth and transformation with Layered UI solutions.
             </p>
           </motion.div>
 
