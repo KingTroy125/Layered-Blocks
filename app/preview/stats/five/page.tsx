@@ -7,22 +7,22 @@ const stats = [
   {
     percentage: "95%",
     title: "Fast-Track Results",
-    description: "Accelerate your growth journey with Finova's cutting-edge automation.",
+    description: "Accelerate your growth journey with Layered UI cutting-edge automation.",
   },
   {
     percentage: "20%",
     title: "Increased Efficiency",
-    description: "Uncover hidden opportunities in your workflows with Finova's automated insights.",
+    description: "Uncover hidden opportunities in your workflows with Layered UI automated insights.",
   },
   {
     percentage: "36%",
     title: "Performance Leap",
-    description: "Elevate your workflows and outpace the competition using Finova's advanced features.",
+    description: "Elevate your workflows and outpace the competition using Layered UI advanced features.",
   },
   {
     percentage: "54%",
     title: "Strategic Advantage",
-    description: "Gain a competitive edge through Finova's powerful, data-driven strategies.",
+    description: "Gain a competitive edge through Layered UI powerful, data-driven strategies.",
   },
 ];
 
