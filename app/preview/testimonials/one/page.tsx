@@ -20,7 +20,7 @@ const testimonials = [
       hasIcon: true,
     },
     {
-      quote: "We rely on Aurion to keep our financials transparent and organized. The donor tracking and expense categorization features are perfect for nonprofits like ours. Plus, the customer support is always there when we need help!",
+      quote: "We rely on Layered UI to keep our financials transparent and organized. The donor tracking and expense categorization features are perfect for nonprofits like ours. Plus, the customer support is always there when we need help!",
       author: "Sarah Martinez",
       role: "Nonprofit Director",
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",
