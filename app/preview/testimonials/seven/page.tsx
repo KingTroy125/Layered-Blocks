@@ -9,7 +9,7 @@ import { motion, AnimatePresence } from "framer-motion"
 const testimonials = [
   {
     quote:
-      "With Aurion, I finally have a clear understanding of my store's finances. The profit and loss tracking tools, combined with easy tax preparation, have saved me so much time and money. Best decision I've made for my business.",
+      "With Layered UI, I finally have a clear understanding of my store's finances. The profit and loss tracking tools, combined with easy tax preparation, have saved me so much time and money. Best decision I've made for my business.",
     author: "Ryan Palmer",
     role: "Owner of Trendy Goods",
     avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=RyanPalmer",
