@@ -43,7 +43,7 @@ const testimonials = [
       hasIcon: true,
     },
     {
-      quote: "With Aurion, I finally have a clear understanding of my store's finances. The profit and loss tracking tools, combined with easy tax preparation, have saved me so much time and money. Best decision I've made for my business.",
+      quote: "With Layered Ui, I finally have a clear understanding of my store's finances. The profit and loss tracking tools, combined with easy tax preparation, have saved me so much time and money. Best decision I've made for my business.",
       author: "Michael Chen",
       role: "Retail Owner",
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Michael",
