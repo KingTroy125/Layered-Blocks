@@ -7,13 +7,13 @@ const testimonials = [
   // Column 1
   [
     {
-      quote: "Aurion made managing our finances so easy. I can track everything in one place!",
+      quote: "Layered UI made managing our finances so easy. I can track everything in one place!",
       author: "David James",
       role: "Small Business Owner",
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=David",
     },
     {
-      quote: "Aurion keeps us organized and on top of our budget. Love it!",
+      quote: "Layered UI keeps us organized and on top of our budget. Love it!",
       author: "Daniel Harnes",
       role: "CFO",
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Daniel",
