@@ -61,7 +61,7 @@ const testimonials = [
       isLong: true,
     },
     {
-      quote: "I finally feel in control of my finances. Thank you, Aurion",
+      quote: "I finally feel in control of my finances. Thank you, Layered Ui",
       author: "Mark Julio",
       role: "Entrepreneur",
       avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Mark",
