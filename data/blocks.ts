@@ -22,7 +22,6 @@ export const blocks: Block[] = [
         preview: '/preview/hero-section/one',
         code: loadCode('app/preview/hero-section/one/page.tsx'),
     },
-
     {
         slug: 'hero-section',
         title: 'two',
@@ -30,7 +29,6 @@ export const blocks: Block[] = [
         preview: '/preview/hero-section/two',
         code: loadCode('app/preview/hero-section/two/page.tsx'),
     },
-
     {
         slug: 'hero-section',
         title: 'three',
