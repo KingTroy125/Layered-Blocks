@@ -143,7 +143,7 @@ export default function FullHeroPage() {
             <motion.div variants={buttonVariants}>
               <Button asChild size="lg" className="rounded-full">
                 <Link href="#">
-                  <span>Start Building</span>
+                  <span>Get Started</span>
                 </Link>
               </Button>
             </motion.div>
