@@ -136,7 +136,8 @@ export default function FullHeroPage() {
               className="text-muted-foreground mx-auto my-8 max-w-2xl text-xl"
               variants={descriptionVariants}
             >
-              Officiis laudantium excepturi ducimus rerum dignissimos, and tempora nam vitae, excepturi ducimus iste provident dolores.
+              Streamline your testing process with our all-in-one platform, designed to boost
+              efficiency and collaboration across teams.
             </motion.p>
 
             {/* CTA Button */}
