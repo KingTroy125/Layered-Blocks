@@ -105,6 +105,14 @@ export const blocks: Block[] = [
     },
 
     {
+        slug: 'how-it-works',
+        title: 'one',
+        category: 'how-it-works',
+        preview: '/preview/how-it-works/one',
+        get code() { return loadCode('app/preview/how-it-works/one/page.tsx') },
+    },
+
+    {
         slug: 'integrations',
         title: 'one',
         category: 'integrations',
