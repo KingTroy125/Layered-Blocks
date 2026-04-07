@@ -112,7 +112,7 @@ export default function HowItWorksSection() {
                     <div className="relative overflow-hidden rounded-2xl border bg-secondary/30 min-h-[460px]">
                         <img
                             key={activeStep}
-                            src="/assets/phone.jpeg"
+                            src="/assets/phone.png"
                             alt={steps[activeStep].title}
                             className="absolute inset-0 w-full h-full object-cover object-center animate-in fade-in duration-300"
                         />
