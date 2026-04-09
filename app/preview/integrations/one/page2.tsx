@@ -109,7 +109,7 @@ const fadeOnly = {
   // Other variants (line/badge/cta) don't use custom but a function form is harmless.
   visible: (delay = 0) => ({
     opacity: 1,
-    transition: { duration: 0.4, ease: 'easeOut', delay },
+    transition: { duration: 0.4, ease: expo, delay },
   }),
 };
 
