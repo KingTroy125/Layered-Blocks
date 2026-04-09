@@ -97,11 +97,11 @@ export const blocks: Block[] = [
         get code() { return loadCode('app/preview/features/two/page.tsx') },
     },
     {
-        slug: 'feature',
+        slug: 'features',
         title: 'four',
-        category: 'feature',
-        preview: '/preview/feature/four',
-        get code() { return loadCode('app/preview/feature/four/page.tsx') },
+        category: 'features',
+        preview: '/preview/features/four',
+        get code() { return loadCode('app/preview/features/four/page.tsx') },
     },
 
     {
